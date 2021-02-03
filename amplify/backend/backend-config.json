@@ -1,6 +1,6 @@
 {
   "auth": {
-    "amplifynotes17641cf3": {
+    "amplifynotesd4fd485b": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -16,19 +16,12 @@
           "defaultAuthentication": {
             "authenticationType": "AMAZON_COGNITO_USER_POOLS",
             "userPoolConfig": {
-              "userPoolId": "authamplifynotes17641cf3"
+              "userPoolId": "authamplifynotesd4fd485b"
             }
           },
           "additionalAuthenticationProviders": []
         }
       }
-    }
-  },
-  "hosting": {
-    "amplifyhosting": {
-      "service": "amplifyhosting",
-      "type": "cicd",
-      "lastPushTimeStamp": "2021-02-02T21:52:59.542Z"
     }
   }
 }
